@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:weightSum="100"
+	android:background="@drawable/back2">
+
+	<TextView
+		android:layout_width="wrap_content"
+        android:layout_height="0dp"
+		android:layout_weight="87"
+        android:text="The goal of the game is to insert"
+		android:gravity="bottom"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+	    android:textColor="@android:color/white"/>
+	<TextView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="the disc into the opponent's goal"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+	    android:textColor="@android:color/white"/>
+	<TextView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by moving the handle"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+	    android:textColor="@android:color/white"/>
+	<TextView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The winner is the one"
+        android:textSize="33dp"
+        android:layout_gravity="center"
+		android:textStyle="bold"
+	    android:textColor="@android:color/white"/>
+	<TextView
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="who get first 7 points"
+        android:textSize="33dp"
+        android:layout_gravity="center"
+		android:textStyle="bold"
+	    android:textColor="@android:color/white"/>
+	<Button
+		android:id="@+id/btnBackI" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="Back"
+		android:textStyle="bold"
+		android:layout_gravity="center"
+		android:backgroundTint="@android:color/white"
+	    android:textColor="@android:color/black"
+	    android:textSize="30dp"/>
+
+</LinearLayout>
